@@ -1,0 +1,45 @@
+APP_NAME = "GleamBLEled"
+
+PREFERRED_WRITE_UUIDS = [
+    "0000fff3-0000-1000-8000-00805f9b34fb",
+    "0000ffd9-0000-1000-8000-00805f9b34fb",
+    "0000ffe9-0000-1000-8000-00805f9b34fb",
+]
+
+KNOWN_DEVICE_NAME_HINTS = [
+    "QHM-",
+    "ELK-",
+    "LEDNET",
+    "LEDBLUE",
+    "LEDBLE",
+    "MAGIC",
+    "TRIONES",
+    "HJ-",
+    "BLE-LED",
+    "LED_",
+    "ILC",
+    "ZENGGE",
+    "MELK",
+    "HUAWEI_LED",
+    "SP110E",
+    "ELK-BLEDOM",
+]
+
+KNOWN_SERVICE_UUIDS = [
+    "0000ffd5-0000-1000-8000-00805f9b34fb",
+    "0000ffe5-0000-1000-8000-00805f9b34fb",
+    "0000fff0-0000-1000-8000-00805f9b34fb",
+    "0000cc01-0000-1000-8000-00805f9b34fb",
+]
+
+DEFAULT_COLOR = "#ff6600"
+DEFAULT_BRIGHTNESS = 1.0
+DEFAULT_EFFECT_SPEED = 50
+
+QUICK_SCAN_SECONDS = 5.0
+DEEP_SCAN_SECONDS = 10.0
+# На Windows find_device_by_address запускает внутренний скан — нужно достаточно времени
+LAST_DEVICE_CONNECT_TIMEOUT = 12.0
+DEFAULT_CONNECT_TIMEOUT = 12.0
+RECONNECT_INTERVAL_SECONDS = 5
+RECONNECT_MAX_ATTEMPTS = 5
