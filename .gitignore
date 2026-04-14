@@ -1,0 +1,15 @@
+# Flutter/Dart
+.dart_tool/
+build/
+.pub/
+.idea/
+*.iml
+# Android
+android/app/**/*.keystore
+android/app/build.gradle
+android/gradle/**
+android/.gradle/**
+# VS Code
+.vscode/
+# Misc
+*.log
